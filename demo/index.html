@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>老年关怀 App 雏形 Demo</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="app-header">
+      <div>
+        <p class="app-title">老年关怀 App 雏形</p>
+        <p class="app-subtitle">提醒 · 关注 · AI 代办</p>
+      </div>
+      <button class="chip">子女端已连接</button>
+    </header>
+
+    <main class="layout">
+      <section class="phone">
+        <div class="phone-header">
+          <span>08:30</span>
+          <span>电量 88%</span>
+        </div>
+        <div class="phone-body">
+          <h2>早上好，王阿姨</h2>
+          <p class="hint">今日共 3 项提醒</p>
+          <div class="card primary">
+            <h3>我很好</h3>
+            <p>一键报平安给子女</p>
+            <button class="cta">发送平安</button>
+          </div>
+          <div class="card warning">
+            <h3>紧急求助</h3>
+            <p>立即呼叫联系人并分享定位</p>
+            <button class="cta">紧急呼叫</button>
+          </div>
+          <div class="card">
+            <h3>今日提醒</h3>
+            <ul>
+              <li>09:00 服用降压药</li>
+              <li>12:30 午饭后散步</li>
+              <li>18:00 与子女视频通话</li>
+            </ul>
+          </div>
+          <div class="card ai">
+            <h3>AI 语音代办</h3>
+            <p>说“帮我买菜”，自动跳转服务</p>
+            <button class="cta ghost">开始说话</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="dashboard">
+        <div class="panel">
+          <h2>子女端 · 父母概览</h2>
+          <div class="stats">
+            <div>
+              <p class="label">最近报平安</p>
+              <p class="value">今天 08:12</p>
+            </div>
+            <div>
+              <p class="label">今日提醒完成</p>
+              <p class="value">2 / 3</p>
+            </div>
+            <div>
+              <p class="label">异常提醒</p>
+              <p class="value danger">0</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="panel">
+          <h3>提醒管理</h3>
+          <div class="reminder">
+            <div>
+              <p class="title">每日服药</p>
+              <p class="time">09:00 / 21:00</p>
+            </div>
+            <button class="chip">编辑</button>
+          </div>
+          <div class="reminder">
+            <div>
+              <p class="title">午饭后散步</p>
+              <p class="time">12:30</p>
+            </div>
+            <button class="chip">编辑</button>
+          </div>
+          <button class="cta add">新增提醒</button>
+        </div>
+
+        <div class="panel">
+          <h3>AI 代办确认</h3>
+          <p>老人刚刚说：“帮我买菜，西红柿和鸡蛋”</p>
+          <div class="confirm">
+            <button class="cta ghost">稍后处理</button>
+            <button class="cta">确认下单</button>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

@@ -19,6 +19,13 @@ In this exercise, you will:
 3. Open a pull request
 4. Merge your pull request
 
+## Demo (UI 雏形)
+
+This repository now includes a lightweight UI demo for the elderly care + AI concierge app concept.
+
+- **Location**: `demo/index.html` + `demo/styles.css`
+- **Preview**: open `demo/index.html` in a browser
+
 ### How to start this exercise
 
 1. Right-click **Copy Exercise** and open the link in a new tab.
