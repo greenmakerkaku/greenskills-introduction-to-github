@@ -26,6 +26,23 @@ This repository now includes a lightweight UI demo for the elderly care + AI con
 - **Location**: `demo/index.html` + `demo/styles.css`
 - **Preview**: open `demo/index.html` in a browser
 
+### If you see “The system cannot find the path specified”
+
+You might be trying to open the demo from the wrong folder. The demo lives **inside this repository**. Here are simple ways to find it:
+
+**Option A: File Manager (no command line)**
+1. Open your repository folder (the one that contains `README.md`).
+2. Open the `demo` folder.
+3. Double-click `index.html` to preview in your browser.
+
+**Option B: Command line (optional)**
+```bash
+pwd
+ls
+ls demo
+```
+If `ls demo` shows `index.html`, you’re in the right place.
+
 ### How to start this exercise
 
 1. Right-click **Copy Exercise** and open the link in a new tab.
